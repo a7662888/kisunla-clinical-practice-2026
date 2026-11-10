@@ -203,3 +203,7 @@ body.k-reflow .k-ttg{height:180px;gap:8px}
 .k-vtl.g2{display:grid!important;grid-template-columns:repeat(2,1fr)!important;gap:12px}
 .k-vtl.g3{display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:12px}
 body.k-reflow .k-vtl.g2,body.k-reflow .k-vtl.g3{grid-template-columns:1fr!important}
+
+.k-qrbox{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px}
+.k-qrbox img{border:2px solid #C9D1D9;border-radius:12px;background:#FFFFFF;padding:8px}
+body.k-reflow .k-qrbox img{width:300px!important;height:300px!important}
